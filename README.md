@@ -35,12 +35,15 @@
     * [Quantization + Distillation](#quantization--distillation)
     * [Distillation + Pruning](#distillation--pruning)
     * [Distillation + Low-Rank](#distillation--low-rank)
-* [🚀 System Optimization](#-system-optimization)
-  * [Compiler Optimizations](#compiler-optimizations)
-  * [Inference Frameworks](#inference-frameworks)
-  * [Memory Optimization](#memory-optimization)
-  * [Hardware Support](#hardware-support)
-  * [Edge-Cloud Collaboration](#edge-cloud-collaboration)
+* System Optimization
+  * [⚙️ Compiler Optimizations](#️-compiler-optimizations)
+    * [Front-end & IR Layer](#front-end--ir-layer)
+    * [Middle-end Layer](#middle-end-layer)
+    * [Back-end Layer](#back-end-layer)
+  * [🏗️ Inference Frameworks](#️-inference-frameworks)
+  * [💾 Memory Optimization](#-memory-optimization)
+  * [🔧 Hardware Support](#-hardware-support)
+  * [☁️ Edge-Cloud Collaboration](#️-edge-cloud-collaboration)
 
 ---
 
@@ -593,25 +596,88 @@
 
 ---
 
-## 🚀 System Optimization
 
-### Compiler Optimizations
+## ⚙️ Compiler Optimizations
 
-*TODO: Add compiler optimization papers+*
+#### Front-end & IR Layer
 
-### Inference Frameworks
++ **TVM: An Automated End-to-End Optimizing Compiler for Deep Learning** (2018, OSDI'18)  
+  [![Paper](https://img.shields.io/badge/OSDI-228B22.svg)](https://arxiv.org/abs/1802.04799)
+  [![Code](https://img.shields.io/github/stars/apache/tvm.svg?style=social&label=Star)](https://github.com/apache/tvm)
+
++ **Glow: Graph Lowering Compiler Techniques for Neural Networks** (2019, arXiv'19)  
+  [![Paper](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/1805.00907)
+
++ **Relay: A High-Level Compiler for Deep Learning** (2019, arXiv'19)  
+  [![Paper](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/1904.08368)
+  [![Code](https://img.shields.io/github/stars/apache/tvm.svg?style=social&label=Star)](https://github.com/apache/tvm)
+
++ **MLIR: A Compiler Infrastructure for the End of Moore's Law** (2020, PLDI'20)  
+  [![Paper](https://img.shields.io/badge/PLDI-006400.svg)](https://arxiv.org/abs/2002.11054)
+
+#### Middle-end Layer
+
++ **Learning to Optimize Tensor Programs** (2018, NeurIPS'18)  
+  [![Paper](https://img.shields.io/badge/NeurIPS-8A2BE2.svg)](https://arxiv.org/abs/1805.08166)
+  [![Code](https://img.shields.io/github/stars/apache/tvm.svg?style=social&label=Star)](https://github.com/apache/tvm)
+
++ **Triton: An Intermediate Language and Compiler for Tiled Neural Network Computations** (2019, MAPL'19)  
+  [![Paper](https://img.shields.io/badge/MAPL-0A5F8C.svg)](https://doi.org/10.1145/3315508.3329973)
+  [![Code](https://img.shields.io/github/stars/openai/triton.svg?style=social&label=Star)](https://github.com/openai/triton)
+
++ **Ansor: Generating High-Performance Tensor Programs for Deep Learning** (2021, MLSys'21)  
+  [![Paper](https://img.shields.io/badge/MLSys-0A5F8C.svg)](https://arxiv.org/abs/2006.06762)
+  [![Code](https://img.shields.io/github/stars/apache/tvm.svg?style=social&label=Star)](https://github.com/apache/tvm)
+
++ **MetaSchedule: Learning to Optimize Tensor Programs** (2022, MLSys'22)  
+  [![Paper](https://img.shields.io/badge/MLSys-0A5F8C.svg)](https://proceedings.mlsys.org/paper/2022/hash/4e732ced3463d06de0ca9a15b6153677-Abstract.html)
+  [![Code](https://img.shields.io/github/stars/apache/tvm.svg?style=social&label=Star)](https://github.com/apache/tvm)
+
++ **Hidet: Task-Mapping Programming Paradigm for Deep Learning Tensor Programs** (2023, ASPLOS'23)  
+  [![Paper](https://img.shields.io/badge/ASPLOS-FF6F00.svg)](https://doi.org/10.1145/3575693.3575702)
+  [![Code](https://img.shields.io/github/stars/hidet-org/hidet.svg?style=social&label=Star)](https://github.com/hidet-org/hidet)
+
+#### Back-end Layer
+
++ **FlashAttention: Fast and Memory-Efficient Exact Attention with IO-Awareness** (2022, NeurIPS'22)  
+  [![Paper](https://img.shields.io/badge/NeurIPS-8A2BE2.svg)](https://proceedings.neurips.cc/paper/2022/hash/67d57c32e20fd0a7a302cb81d36e40d5-Abstract-Conference.html)
+  [![Code](https://img.shields.io/github/stars/Dao-AILab/flash-attention.svg?style=social&label=Star)](https://github.com/Dao-AILab/flash-attention)
+
++ **FlashAttention-2: Faster Attention with Better Parallelism and Work Partitioning** (2023, arXiv'23)  
+  [![Paper](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2307.08691)
+  [![Code](https://img.shields.io/github/stars/Dao-AILab/flash-attention.svg?style=social&label=Star)](https://github.com/Dao-AILab/flash-attention)
+
++ **KVQuant: Towards 10 Million Context Length LLM Inference with KV Cache Quantization** (2024, arXiv'24)  
+  [![Paper](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2401.18079)
+  [![Code](https://img.shields.io/github/stars/SqueezeAILab/KVQuant.svg?style=social&label=Star)](https://github.com/SqueezeAILab/KVQuant)
+
++ **PAGED-KV: Demand-Paging KV Cache for LLM Serving** (2024, arXiv'24)  
+  [![Paper](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2406.02069)
+  [![Code](https://img.shields.io/github/stars/vllm-project/vllm.svg?style=social&label=Star)](https://github.com/vllm-project/vllm)
+
++ **FlashDecoding++: Faster Large Language Model Inference on GPUs** (2024, arXiv'24)  
+  [![Paper](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2311.01282)
+
++ **FlashAttention-3: Fast and Accurate Attention with Asynchrony and Low-precision** (2024, NeurIPS'24)  
+  [![Paper](https://img.shields.io/badge/NeurIPS-8A2BE2.svg)](https://openreview.net/forum?id=tVConYid20)
+  [![Code](https://img.shields.io/github/stars/Dao-AILab/flash-attention.svg?style=social&label=Star)](https://github.com/Dao-AILab/flash-attention)
+
++ **PyramidKV: Dynamic KV Cache Compression for Efficient Long Sequence Processing** (2024, arXiv'24)  
+  [![Paper](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2406.02069)
+
+## 🏗️ Inference Frameworks
 
 *TODO: Add inference framework papers*
 
-### Memory Optimization
+## 💾 Memory Optimization
 
 *TODO: Add memory optimization papers*
 
-### Hardware Support
+## 🔧 Hardware Support
 
 *TODO: Add hardware support papers*
 
-### Edge-Cloud Collaboration
+## ☁️ Edge-Cloud Collaboration
 
 *TODO: Add edge-cloud collaboration papers*
 
@@ -622,11 +688,11 @@
 
 ### 🚀 System Optimization Section
 - [x] **System Optimization Main Section** (Structure added)
-- [ ] **Compiler Optimizations** (Papers to be added)
-- [ ] **Inference Frameworks** (Papers to be added)
-- [ ] **Memory Optimization** (Papers to be added)
-- [ ] **Hardware Support** (Papers to be added)
-- [ ] **Edge–Cloud Collaboration** (Papers to be added)
+- [x] **⚙️ Compiler Optimizations** (Papers added - 3 layers: Front-end/IR, Middle-end, Back-end)
+- [ ] **🏗️ Inference Frameworks** (Papers to be added)
+- [ ] **💾 Memory Optimization** (Papers to be added)
+- [ ] **🔧 Hardware Support** (Papers to be added)
+- [ ] **☁️ Edge–Cloud Collaboration** (Papers to be added)
 
 ---
 
