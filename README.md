@@ -35,8 +35,12 @@
     * [Quantization + Distillation](#quantization--distillation)
     * [Distillation + Pruning](#distillation--pruning)
     * [Distillation + Low-Rank](#distillation--low-rank)
-* System Optimization
-  * TODO...
+* [🚀 System Optimization](#-system-optimization)
+  * [Compiler Optimizations](#compiler-optimizations)
+  * [Inference Frameworks](#inference-frameworks)
+  * [Memory Optimization](#memory-optimization)
+  * [Hardware Support](#hardware-support)
+  * [Edge-Cloud Collaboration](#edge-cloud-collaboration)
 
 ---
 
@@ -587,16 +591,42 @@
   [![Paper](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2411.06448)
   [![Code](https://img.shields.io/github/stars/intell-sci-comput/OPDF.svg?style=social&label=Star)](https://github.com/intell-sci-comput/OPDF)
 
+---
+
+## 🚀 System Optimization
+
+### Compiler Optimizations
+
+*TODO: Add compiler optimization papers*
+
+### Inference Frameworks
+
+*TODO: Add inference framework papers*
+
+### Memory Optimization
+
+*TODO: Add memory optimization papers*
+
+### Hardware Support
+
+*TODO: Add hardware support papers*
+
+### Edge-Cloud Collaboration
+
+*TODO: Add edge-cloud collaboration papers*
+
+---
 
 ## 📝 TODO List
 
 
 ### 🚀 System Optimization Section
-- [ ] **Compiler Optimizations**
-- [ ] **Inference Frameworks**
-- [ ] **Memory Optimization**
-- [ ] **Hardware Support**
-- [ ] **Edge–Cloud Collaboration**
+- [x] **System Optimization Main Section** (Structure added)
+- [ ] **Compiler Optimizations** (Papers to be added)
+- [ ] **Inference Frameworks** (Papers to be added)
+- [ ] **Memory Optimization** (Papers to be added)
+- [ ] **Hardware Support** (Papers to be added)
+- [ ] **Edge–Cloud Collaboration** (Papers to be added)
 
 ---
 
