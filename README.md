@@ -4,6 +4,7 @@
 
 **A curated list of papers on on-device large language models, focusing on model compression and system optimization techniques.**
 
+[![GitHub stars](https://img.shields.io/github/stars/LumosJiang/Awesome-On-Device-LLMs?style=social)](https://github.com/LumosJiang/Awesome-On-Device-LLMs/stargazers)
 ![visitors](https://visitor-badge.laobi.icu/badge?page_id=Awesome-On-Device-LLMs&left_color=green&right_color=red)
 
 </div>
@@ -596,5 +597,12 @@
 - [ ] **Memory Optimization**
 - [ ] **Hardware Support**
 - [ ] **Edge–Cloud Collaboration**
+
 ---
+
 > **Note**: This list is continuously updated. Contributions are welcome! Please feel free to open an issue or pull request to add new papers. Code and project links are provided where publicly available.
+## ⭐ Star History
+
+[![Star History Chart](https://api.star-history.com/svg?repos=LumosJiang/Awesome-On-Device-LLMs&type=Date)](https://star-history.com/#LumosJiang/Awesome-On-Device-LLMs&Date)
+
+---
