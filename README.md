@@ -4,7 +4,6 @@
 
 **A curated list of papers on on-device large language models, focusing on model compression and system optimization techniques.**
 
-[![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
 ![visitors](https://visitor-badge.laobi.icu/badge?page_id=Awesome-On-Device-LLMs&left_color=green&right_color=red)
 
 </div>
