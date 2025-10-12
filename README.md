@@ -709,7 +709,7 @@
   [![Paper](https://img.shields.io/badge/arXiv-2405.12981-b31b1b.svg)](https://arxiv.org/abs/2405.12981)
 
 + **KIVI: A Tuning-Free Asymmetric 2bit Quantization for KV Cache** (2024, ICML)  
-  [![Paper](https://im.shields.io/badge/arXiv-2402.02750-b31b1b.svg)](https://arxiv.org/abs/2402.02750)  
+  [![Paper](https://img.shields.io/badge/arXiv-2310.01889-b31b1b.svg)](https://arxiv.org/abs/2402.02750)  
   [![Code](https://img.shields.io/github/stars/jy-yuan/KIVI.svg?style=social&label=Star)](https://github.com/jy-yuan/KIVI)
 
 + **Ring Attention with Blockwise Transformers for Near-Infinite Context** (2023, arXiv)  
