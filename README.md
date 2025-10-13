@@ -41,11 +41,16 @@
     * [Middle-end Layer](#middle-end-layer)
     * [Back-end Layer](#back-end-layer)
   * [🏗️ Inference Frameworks](#️-inference-frameworks)
+    * [Compiler-centric Pipelines](#compiler-centric-pipelines)
+    * [Manual-kernel Frameworks](#manual-kernel-frameworks)
+    * [HAL-based Delegates and Execution-Provider Architectures](#hal-based-delegates-and-execution-provider-architectures)
+    * [Cross-Cutting Techniques Mentioned](#cross-cutting-techniques-mentioned)
   * [💾 Memory Optimization](#-memory-optimization)
   * [🔧 Hardware Support](#-hardware-support)
   * [☁️ Edge-Cloud Collaboration](#️-edge-cloud-collaboration)
 
 ---
+
 
 ## 🔢 Model Quantization
 
@@ -667,7 +672,133 @@
 
 ## 🏗️ Inference Frameworks
 
-*TODO: Add inference framework papers*
+#### Compiler-centric Pipelines
+
++ **TVM: An Automated End-to-End Optimizing Compiler for Deep Learning** (2018, OSDI'18)  
+  [![Paper](https://img.shields.io/badge/OSDI-228B22.svg)](https://arxiv.org/abs/1802.04799)
+  [![Code](https://img.shields.io/github/stars/apache/tvm.svg?style=social&label=Star)](https://github.com/apache/tvm)
+
++ **Relay: A High-Level Compiler for Deep Learning** (2019, arXiv'19)  
+  [![Paper](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/1904.08368)
+  [![Code](https://img.shields.io/github/stars/apache/tvm.svg?style=social&label=Star)](https://github.com/apache/tvm)
+  
++ **MLIR: A Compiler Infrastructure for the End of Moore’s Law** (2020, arXiv)  
+  [![Paper](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2002.11054)
+  [![Code](https://img.shields.io/github/stars/llvm/llvm-project.svg?style=social&label=Star)](https://github.com/llvm/llvm-project)
+
++ **Learning to Optimize Tensor Programs** (2018, NeurIPS'18)  
+  [![Paper](https://img.shields.io/badge/NeurIPS-8A2BE2.svg)](https://arxiv.org/abs/1805.08166)
+  [![Code](https://img.shields.io/github/stars/apache/tvm.svg?style=social&label=Star)](https://github.com/apache/tvm)
+
++ **Ansor: Generating High-Performance Tensor Programs for Deep Learning** (2021, MLSys'21)  
+  [![Paper](https://img.shields.io/badge/MLSys-0A5F8C.svg)](https://arxiv.org/abs/2006.06762)
+  [![Code](https://img.shields.io/github/stars/apache/tvm.svg?style=social&label=Star)](https://github.com/apache/tvm)
+
++ **TensorIR: An Abstraction for Automatic Tensorized Program Optimization** (2023, ASPLOS'23)  
+  [![Paper](https://img.shields.io/badge/ASPLOS-FF6F00.svg)](https://doi.org/10.1145/3575693.3576933)
+  [![Code](https://img.shields.io/github/stars/apache/tvm.svg?style=social&label=Star)](https://github.com/apache/tvm)
+
++ **Experience-Guided, Mixed-Precision Matrix Multiplication with Apache TVM for ARM Processors** (2025, The Journal of Supercomputing)  
+  [![Paper](https://img.shields.io/badge/Journal-green.svg)](https://doi.org/10.1007/s11227-024-06720-7)
+  [![Code](https://img.shields.io/github/stars/adcastel/TVM_quantized.svg?style=social&label=Star)](https://github.com/adcastel/TVM_quantized)
+
++ **Automatic Generators for a Family of Matrix Multiplication Routines with Apache TVM** (2023, arXiv'23)  
+  [![Paper](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2310.20347)
+  [![Code](https://img.shields.io/github/stars/hpca-uji/ConvLIB.svg?style=social&label=Star)](https://github.com/hpca-uji/ConvLIB)
+
+#### Manual-kernel Frameworks
+
++ **PowerInfer: Fast Large Language Model Serving with a Consumer-Grade GPU** (2024, SOSP ’24)  
+  [![Paper](https://img.shields.io/badge/SOSP-FF6F00.svg)](https://arxiv.org/abs/2312.12456)
+  [![Code](https://img.shields.io/github/stars/SJTU-IPADS/PowerInfer.svg?style=social&label=Star)](https://github.com/SJTU-IPADS/PowerInfer)
+
++ **Enhancing Local LLM Performance Through Heterogeneous Multi-Device Computing** (2024, IEEE'24)  
+  [![Paper](https://img.shields.io/badge/IEEE-blue.svg)](https://doi.org/10.1109/MIPR62202.2024.00016)
++ **Implementation and Evaluation of LLM on a CGLA** (2024, CANDAR'24)  
+  [![Paper](https://img.shields.io/badge/CANDAR-blue.svg)](https://doi.org/10.1109/CANDAR64496.2024.00040)
+
+#### HAL-based Delegates and Execution-Provider Architectures
+
++ **LLM in a Flash: Efficient LLM Inference with Limited Memory** (2024, ACL ’24)  
+  [![Paper](https://img.shields.io/badge/ACL-FF6F00.svg)](https://arxiv.org/abs/2312.11514)
+
+
++ **Classification of Data Corruption in Microcontroller-Based Serial-Optical Communication with TensorFlow-Lite** (2024, SIU'24)  
+  [![Paper](https://img.shields.io/badge/SIU-blue.svg)](https://doi.org/10.1109/SIU61531.2024.10600911)
+
++ **Fused Architecture for Dense and Sparse Matrix Processing in TensorFlow Lite** (2022, IEEE Micro'22)  
+  [![Paper](https://img.shields.io/badge/IEEE_Micro-blue.svg)](https://doi.org/10.1109/MM.2022.3196705)
+
++ **ONNX Format Specification** (2025, GitHub)  
+  [![Code](https://img.shields.io/github/stars/onnx/onnx.svg?style=social&label=Star)](https://github.com/onnx/onnx/blob/main/docs/IR.md)
+
+
++ **LLM-FP4: 4-bit Floating-Point Quantized Transformers** (2023, EMNLP ’23)  
+  [![Paper](https://img.shields.io/badge/EMNLP-FF6F00.svg)](https://arxiv.org/abs/2310.16836)
+  [![Code](https://img.shields.io/github/stars/nbasyl/LLM-FP4.svg?style=social&label=Star)](https://github.com/nbasyl/LLM-FP4)
+
+
++ **Quantization and Training of Neural Networks for Efficient Integer-Arithmetic-Only Inference** (2018, CVPR'18)  
+  [![Paper](https://img.shields.io/badge/CVPR-00CED1.svg)](https://arxiv.org/abs/1712.05877)
+  [![Code](https://img.shields.io/github/stars/tensorflow/tensorflow.svg?style=social&label=Star)](https://github.com/tensorflow/tensorflow)
+
++ **QuIP: 2-bit Quantization of Large Language Models with Guarantees** (2023, arXiv'23)  
+  [![Paper](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2307.13304)
+  [![Code](https://img.shields.io/github/stars/Cornell-RelaxML/QuIP.svg?style=social&label=Star)](https://github.com/Cornell-RelaxML/QuIP)
+
+
+#### Cross-Cutting Techniques Mentioned
+
++ **FlashAttention-2: Faster Attention with Better Parallelism and Work Partitioning** (2023, NeurIPS'23)  
+  [![Paper](https://img.shields.io/badge/NeurIPS-8A2BE2.svg)](https://arxiv.org/abs/2307.08691)
+  [![Code](https://img.shields.io/github/stars/Dao-AILab/flash-attention.svg?style=social&label=Star)](https://github.com/Dao-AILab/flash-attention)
+
++ **FlashAttention-3: Fast and Accurate Attention with Asynchrony and Low-precision** (2024, NeurIPS'24)  
+  [![Paper](https://img.shields.io/badge/NeurIPS-8A2BE2.svg)](https://openreview.net/forum?id=tVConYid20)
+  [![Code](https://img.shields.io/github/stars/Dao-AILab/flash-attention.svg?style=social&label=Star)](https://github.com/Dao-AILab/flash-attention)
+
++ **PyramidKV: Dynamic KV Cache Compression based on Pyramidal Information Funneling** (2025, arXiv'25)  
+  [![Paper](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2406.02069)
+
++ **Efficient Large-Scale Language Model Training on GPU Clusters Using Megatron-LM** (2021, SC ’21)  
+  [![Paper](https://img.shields.io/badge/SC-FF6F00.svg)](https://arxiv.org/abs/2104.04473)
+  [![Code](https://img.shields.io/github/stars/NVIDIA/Megatron-LM.svg?style=social&label=Star)](https://github.com/NVIDIA/Megatron-LM)
+
+
++ **SGLang: Efficient Execution of Structured Language Model Programs** (2024, NeurIPS'24)  
+  [![Paper](https://img.shields.io/badge/NeurIPS-8A2BE2.svg)](https://openreview.net/forum?id=VqkAKQibpq)
+  [![Code](https://img.shields.io/github/stars/sgl-project/sglang.svg?style=social&label=Star)](https://github.com/sgl-project/sglang)
+
++ **Glow: Graph Lowering Compiler Techniques for Neural Networks** (2019, arXiv'19)  
+  [![Paper](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/1805.00907)
+  [![Code](https://img.shields.io/github/stars/pytorch/glow.svg?style=social&label=Star)](https://github.com/pytorch/glow)
+
++ **Bolt: Bridging the Gap Between Auto-Tuners and Hardware-Native Performance** (2021, arXiv'21)  
+  [![Paper](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2110.15238)
+  [![Code](https://img.shields.io/github/stars/apache/tvm.svg?style=social&label=Star)](https://github.com/apache/tvm)
+
++ **Flash: Latent-aware Semi-autoregressive Speculative Decoding for Multimodal Tasks** (2025, arXiv'25)  
+  [![Paper](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2505.12728)
+  [![Code](https://img.shields.io/github/stars/ZihuaEvan/FlashSD.svg?style=social&label=Star)](https://github.com/ZihuaEvan/FlashSD)
+
++ **Lemix: Unified Scheduling for LLM Training and Inference on Multi-GPU Systems** (2025, RTSS'25)  
+  [![Paper](https://img.shields.io/badge/RTSS-FF6F00.svg)](https://arxiv.org/abs/2507.21276)
+
+
++ **eLLM: Elastic Memory Management Framework for Efficient LLM Serving** (2025, arXiv'25)  
+  [![Paper](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2506.15155)
+
++ **HTVM: Efficient Neural Network Deployment on Heterogeneous TinyML Platforms** (2023, DAC'23)  
+  [![Paper](https://img.shields.io/badge/DAC-blue.svg)](https://doi.org/10.1109/DAC56929.2023.10247664)
+  [![Code](https://img.shields.io/github/stars/KULeuven-MICAS/htvm.svg?style=social&label=Star)](https://github.com/KULeuven-MICAS/htvm)
+
++ **MobileVLM: A Fast, Strong and Open Vision Language Assistant for Mobile Devices** (2023, arXiv'23)  
+  [![Paper](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2312.16886)
+  [![Code](https://img.shields.io/github/stars/Meituan-AutoML/MobileVLM.svg?style=social&label=Star)](https://github.com/Meituan-AutoML/MobileVLM)
+
++ **MoE-LLaVA: Mixture of Experts for Large Vision-Language Models** (2024, arXiv'24)  
+  [![Paper](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2401.15947)
+  [![Code](https://img.shields.io/github/stars/PKU-YuanGroup/MoE-LLaVA.svg?style=social&label=Star)](https://github.com/PKU-YuanGroup/MoE-LLaVA)
 
 ## 💾 Memory Optimization
 
