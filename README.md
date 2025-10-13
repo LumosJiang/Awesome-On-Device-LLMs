@@ -680,31 +680,27 @@
 
 + **Relay: A High-Level Compiler for Deep Learning** (2019, arXiv'19)  
   [![Paper](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/1904.08368)
-  [![Code](https://img.shields.io/github/stars/apache/tvm.svg?style=social&label=Star)](https://github.com/apache/tvm)
   
 + **MLIR: A Compiler Infrastructure for the End of Moore’s Law** (2020, arXiv)  
   [![Paper](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2002.11054)
-  [![Code](https://img.shields.io/github/stars/llvm/llvm-project.svg?style=social&label=Star)](https://github.com/llvm/llvm-project)
 
 + **Learning to Optimize Tensor Programs** (2018, NeurIPS'18)  
   [![Paper](https://img.shields.io/badge/NeurIPS-8A2BE2.svg)](https://arxiv.org/abs/1805.08166)
-  [![Code](https://img.shields.io/github/stars/apache/tvm.svg?style=social&label=Star)](https://github.com/apache/tvm)
+
 
 + **Ansor: Generating High-Performance Tensor Programs for Deep Learning** (2021, MLSys'21)  
   [![Paper](https://img.shields.io/badge/MLSys-0A5F8C.svg)](https://arxiv.org/abs/2006.06762)
-  [![Code](https://img.shields.io/github/stars/apache/tvm.svg?style=social&label=Star)](https://github.com/apache/tvm)
+
 
 + **TensorIR: An Abstraction for Automatic Tensorized Program Optimization** (2023, ASPLOS'23)  
   [![Paper](https://img.shields.io/badge/ASPLOS-FF6F00.svg)](https://doi.org/10.1145/3575693.3576933)
-  [![Code](https://img.shields.io/github/stars/apache/tvm.svg?style=social&label=Star)](https://github.com/apache/tvm)
 
 + **Experience-Guided, Mixed-Precision Matrix Multiplication with Apache TVM for ARM Processors** (2025, The Journal of Supercomputing)  
   [![Paper](https://img.shields.io/badge/Journal-green.svg)](https://doi.org/10.1007/s11227-024-06720-7)
-  [![Code](https://img.shields.io/github/stars/adcastel/TVM_quantized.svg?style=social&label=Star)](https://github.com/adcastel/TVM_quantized)
+
 
 + **Automatic Generators for a Family of Matrix Multiplication Routines with Apache TVM** (2023, arXiv'23)  
   [![Paper](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2310.20347)
-  [![Code](https://img.shields.io/github/stars/hpca-uji/ConvLIB.svg?style=social&label=Star)](https://github.com/hpca-uji/ConvLIB)
 
 #### Manual-kernel Frameworks
 
@@ -740,7 +736,6 @@
 
 + **Quantization and Training of Neural Networks for Efficient Integer-Arithmetic-Only Inference** (2018, CVPR'18)  
   [![Paper](https://img.shields.io/badge/CVPR-00CED1.svg)](https://arxiv.org/abs/1712.05877)
-  [![Code](https://img.shields.io/github/stars/tensorflow/tensorflow.svg?style=social&label=Star)](https://github.com/tensorflow/tensorflow)
 
 + **QuIP: 2-bit Quantization of Large Language Models with Guarantees** (2023, arXiv'23)  
   [![Paper](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2307.13304)
@@ -775,11 +770,9 @@
 
 + **Bolt: Bridging the Gap Between Auto-Tuners and Hardware-Native Performance** (2021, arXiv'21)  
   [![Paper](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2110.15238)
-  [![Code](https://img.shields.io/github/stars/apache/tvm.svg?style=social&label=Star)](https://github.com/apache/tvm)
 
 + **Flash: Latent-aware Semi-autoregressive Speculative Decoding for Multimodal Tasks** (2025, arXiv'25)  
   [![Paper](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2505.12728)
-  [![Code](https://img.shields.io/github/stars/ZihuaEvan/FlashSD.svg?style=social&label=Star)](https://github.com/ZihuaEvan/FlashSD)
 
 + **Lemix: Unified Scheduling for LLM Training and Inference on Multi-GPU Systems** (2025, RTSS'25)  
   [![Paper](https://img.shields.io/badge/RTSS-FF6F00.svg)](https://arxiv.org/abs/2507.21276)
