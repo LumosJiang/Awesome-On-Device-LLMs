@@ -918,7 +918,42 @@
 
 ## ☁️ Edge-Cloud Collaboration
 
-*TODO: Add edge-cloud collaboration papers*
++ **Edge-First Language Model Inference: Models, Metrics, and Tradeoffs** (2025, arXiv)  
+  [![Paper](https://img.shields.io/badge/arXiv-2505.16508-b31b1b.svg)](https://arxiv.org/abs/2505.16508)
+
++ **Smaller, Smarter, Closer: The Edge of Collaborative Generative AI** (2025, arXiv)  
+  [![Paper](https://img.shields.io/badge/arXiv-2505.16499-b31b1b.svg)](https://arxiv.org/abs/2505.16499)
+
++ **Hybrid SLM and LLM for Edge-Cloud Collaborative Inference** (2024, EdgeFM)  
+  [![Paper](https://img.shields.io/badge/ACM-Digital_Library-2E8B57.svg)](https://dl.acm.org/doi/10.1145/3662006.3662067)
+
++ **CE-LSLM: Efficient Large-Small Language Model Inference and Communication via Cloud-Edge Collaboration** (2025, arXiv)  
+  [![Paper](https://img.shields.io/badge/arXiv-2505.14085-b31b1b.svg)](https://arxiv.org/abs/2505.14085)
+
++ **Accelerating Edge Inference for Distributed MoE Models with Latency-Optimized Expert Placement** (2025, arXiv)  
+  [![Paper](https://img.shields.io/badge/arXiv-2508.12851-b31b1b.svg)](https://arxiv.org/abs/2508.12851)
+
++ **EC2MoE: Adaptive End-Cloud Pipeline Collaboration Enabling Scalable Mixture-of-Experts Inference** (2025, arXiv)  
+  [![Paper](https://img.shields.io/badge/arXiv-2508.06024-b31b1b.svg)](https://arxiv.org/abs/2508.06024)
+
++ **Auto-Split: A General Framework of Collaborative Edge-Cloud AI** (2021, arXiv)  
+  [![Paper](https://img.shields.io/badge/arXiv-2108.13041-b31b1b.svg)](https://arxiv.org/abs/2108.13041)
+
++ **Ravan: Multi-Head Low-Rank Adaptation for Federated Fine-Tuning** (2025, arXiv)  
+  [![Paper](https://img.shields.io/badge/arXiv-2506.05568-b31b1b.svg)](https://arxiv.org/abs/2506.05568)
+
++ **Semantic Caching of Contextual Summaries for Efficient Question-Answering with Language Models** (2025, arXiv)  
+  [![Paper](https://img.shields.io/badge/arXiv-2505.11271-b31b1b.svg)](https://arxiv.org/abs/2505.11271)
+
++ **Attacking and Protecting Data Privacy in Edge–Cloud Collaborative Inference Systems** (2021, IEEE IoT-J)  
+  [![Paper](https://img.shields.io/badge/IEEE-0C479D.svg)](https://par.nsf.gov/servlets/purl/10208166)
+
++ **AgentStealth: Reinforcing Large Language Model for Anonymizing User-generated Text** (2025, arXiv)  
+  [![Paper](https://img.shields.io/badge/arXiv-2506.22508-b31b1b.svg)](https://arxiv.org/abs/2506.22508)
+  [![Code](https://img.shields.io/github/stars/tsinghua-fib-lab/AgentStealth.svg?style=social&label=Star)](https://github.com/tsinghua-fib-lab/AgentStealth)
+
++ **Principle-Guided Verilog Optimization: IP-Safe Knowledge Transfer via Local-Cloud Collaboration** (2025, arXiv)  
+  [![Paper](https://img.shields.io/badge/arXiv-2508.05675-b31b1b.svg)](https://arxiv.org/abs/2508.05675)
 
 ---
 
@@ -928,10 +963,10 @@
 ### 🚀 System Optimization Section
 - [x] **System Optimization Main Section** (Structure added)
 - [x] **⚙️ Compiler Optimizations** (Papers added - 3 layers: Front-end/IR, Middle-end, Back-end)
-- [ ] **🏗️ Inference Frameworks** (Papers to be added)
-- [ ] **💾 Memory Optimization** (Papers to be added)
-- [ ] **🔧 Hardware Support** (Papers to be added)
-- [ ] **☁️ Edge–Cloud Collaboration** (Papers to be added)
+- [x] **🏗️ Inference Frameworks** (Papers to be added)
+- [x] **💾 Memory Optimization** (Papers to be added)
+- [x] **🔧 Hardware Support** (Papers to be added)
+- [x] **☁️ Edge–Cloud Collaboration** (Papers to be added)
 
 ---
 
