@@ -56,6 +56,10 @@
 
 ### Post-Training Quantization
 
++ **OneComp: One-Line Revolution for Generative AI Model Compression** (Mar 2026, arXiv)  
+  [![Paper](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2603.28845)
+  [![Code](https://img.shields.io/github/stars/FujitsuResearch/OneCompression.svg?style=social&label=Star)](https://github.com/FujitsuResearch/OneCompression)
+
 + **LLM.int8(): 8-bit Matrix Multiplication for Transformers at Scale** (Aug 2022, NeurIPS'22)  
   [![Paper](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2208.07339)
   [![Code](https://img.shields.io/github/stars/TimDettmers/bitsandbytes.svg?style=social&label=Star)](https://github.com/TimDettmers/bitsandbytes)
