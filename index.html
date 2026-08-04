@@ -1,0 +1,309 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#081a18" />
+    <meta
+      name="description"
+      content="Project page for On-device large language models: a survey of model compression and system optimization, published in Artificial Intelligence Review."
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="On-Device Large Language Models — Survey & Resources" />
+    <meta
+      property="og:description"
+      content="A model-to-system map of on-device LLM efficiency, with 250+ curated papers and the ALEM evaluation protocol."
+    />
+    <meta property="og:image" content="assets/paper-fig-1.png" />
+    <meta property="og:url" content="https://lumosjiang.github.io/Awesome-On-Device-LLMs/" />
+    <link rel="canonical" href="https://lumosjiang.github.io/Awesome-On-Device-LLMs/" />
+    <title>On-Device LLMs — Survey & Resources</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "ScholarlyArticle",
+        "headline": "On-device large language models: a survey of model compression and system optimization",
+        "datePublished": "2026-05-22",
+        "identifier": "https://doi.org/10.1007/s10462-026-11538-1",
+        "isAccessibleForFree": true,
+        "publisher": { "@type": "Organization", "name": "Springer Nature" },
+        "isPartOf": { "@type": "Periodical", "name": "Artificial Intelligence Review" },
+        "url": "https://doi.org/10.1007/s10462-026-11538-1"
+      }
+    </script>
+  </head>
+  <body>
+    <div class="noise" aria-hidden="true"></div>
+    <header class="site-header">
+      <a class="brand" href="#top" aria-label="On-Device LLMs home">
+        <span class="brand-mark">OD</span>
+        <span>On-Device LLMs</span>
+      </a>
+      <nav aria-label="Main navigation">
+        <a href="#overview" data-i18n="navOverview">Overview</a>
+        <a href="#map" data-i18n="navMap">Research map</a>
+        <a href="#alem">ALEM</a>
+        <a href="#resources" data-i18n="navResources">Resources</a>
+      </nav>
+      <div class="header-actions">
+        <button class="icon-button" id="themeToggle" aria-label="Toggle color theme" title="Toggle theme">◐</button>
+        <button class="language-button" id="languageToggle" aria-label="Switch language">中文</button>
+      </div>
+    </header>
+
+    <main id="top">
+      <section class="hero section-shell">
+        <div class="hero-copy reveal">
+          <div class="publication-pill">
+            <span class="pulse"></span>
+            <span data-i18n="journalBadge">Artificial Intelligence Review · 2026</span>
+          </div>
+          <p class="eyebrow" data-i18n="eyebrow">From model miniaturization to edge deployment</p>
+          <h1 data-i18n="heroTitle">On-device large language models</h1>
+          <p class="hero-subtitle" data-i18n="heroSubtitle">
+            A unified survey of model compression and system optimization for private, responsive, and resource-aware LLM intelligence at the edge.
+          </p>
+          <p class="authors">
+            Wanyi Chen, Junhao Wang, Yiwei Zhang, Yufan Shi, Tianyi Jiang, <span data-i18n="authorsMore">and 17 co-authors</span>
+          </p>
+          <div class="hero-actions">
+            <a class="button primary" href="https://doi.org/10.1007/s10462-026-11538-1" target="_blank" rel="noreferrer">
+              <span data-i18n="readPaper">Read the paper</span><span aria-hidden="true">↗</span>
+            </a>
+            <a class="button secondary" href="https://github.com/LumosJiang/Awesome-On-Device-LLMs" target="_blank" rel="noreferrer">
+              <span data-i18n="browseCollection">Browse the collection</span><span aria-hidden="true">↗</span>
+            </a>
+          </div>
+          <div class="hero-meta" aria-label="Publication details">
+            <span><strong data-i18n="acceptedLabel">Accepted</strong> 12 Mar 2026</span>
+            <span><strong data-i18n="publishedLabel">Published</strong> 22 May 2026</span>
+            <span><strong>DOI</strong> 10.1007/s10462-026-11538-1</span>
+          </div>
+        </div>
+
+        <figure class="hero-figure reveal delay-1">
+          <button class="figure-frame" data-lightbox="assets/paper-fig-1.png" aria-label="Open paper overview figure">
+            <img src="assets/paper-fig-1.png" alt="Overview of the survey from model compression and system optimization to applications" />
+            <span class="zoom-hint" data-i18n="openFigure">Open figure</span>
+          </button>
+          <figcaption>
+            <span data-i18n="fig1Caption">The survey connects model efficiency, system optimization, evaluation, and real-world applications.</span>
+            <a href="https://doi.org/10.1007/s10462-026-11538-1" target="_blank" rel="noreferrer">Chen et al., 2026</a>
+          </figcaption>
+        </figure>
+      </section>
+
+      <section class="stats section-shell" aria-label="Project statistics">
+        <article class="stat-card reveal">
+          <strong>250+</strong>
+          <span data-i18n="statPapers">curated papers</span>
+        </article>
+        <article class="stat-card reveal delay-1">
+          <strong>10</strong>
+          <span data-i18n="statFamilies">research families</span>
+        </article>
+        <article class="stat-card reveal delay-2">
+          <strong>4</strong>
+          <span data-i18n="statMetrics">deployment metrics</span>
+        </article>
+        <article class="stat-card reveal delay-3">
+          <strong>Open</strong>
+          <span data-i18n="statAccess">access & community maintained</span>
+        </article>
+      </section>
+
+      <section class="overview section-shell" id="overview">
+        <div class="section-heading reveal">
+          <p class="eyebrow" data-i18n="overviewEyebrow">Why this survey</p>
+          <h2 data-i18n="overviewTitle">On-device intelligence is a full-stack problem.</h2>
+          <p data-i18n="overviewBody">
+            A smaller model is not automatically a deployable model. Useful edge intelligence emerges when compression, runtime, memory, hardware, and application constraints are optimized together.
+          </p>
+        </div>
+
+        <div class="bridge-grid">
+          <article class="bridge-card model-card reveal">
+            <div class="card-number">01</div>
+            <h3 data-i18n="modelSide">Model-side efficiency</h3>
+            <p data-i18n="modelSideBody">Reduce parameters, precision, and computation while preserving useful capability.</p>
+            <ul>
+              <li data-i18n="quantization">Quantization</li>
+              <li data-i18n="pruning">Pruning</li>
+              <li data-i18n="distillation">Knowledge distillation</li>
+              <li data-i18n="lowRank">Low-rank factorization</li>
+              <li data-i18n="hybrid">Hybrid compression</li>
+            </ul>
+          </article>
+          <div class="bridge-arrow reveal delay-1" aria-hidden="true">
+            <span>co-design</span>
+            <div></div>
+          </div>
+          <article class="bridge-card system-card reveal delay-2">
+            <div class="card-number">02</div>
+            <h3 data-i18n="systemSide">System-side execution</h3>
+            <p data-i18n="systemSideBody">Turn compact models into responsive applications under real device constraints.</p>
+            <ul>
+              <li data-i18n="compiler">Compiler optimization</li>
+              <li data-i18n="runtime">Inference frameworks</li>
+              <li data-i18n="memory">Memory & KV cache</li>
+              <li data-i18n="hardware">Hardware support</li>
+              <li data-i18n="edgeCloud">Edge-cloud collaboration</li>
+            </ul>
+          </article>
+        </div>
+      </section>
+
+      <section class="research-map section-shell" id="map">
+        <div class="section-heading split-heading reveal">
+          <div>
+            <p class="eyebrow" data-i18n="mapEyebrow">The research map</p>
+            <h2 data-i18n="mapTitle">A field moving from isolated techniques to co-design.</h2>
+          </div>
+          <p data-i18n="mapBody">
+            The literature has grown from individual compression methods into a dense ecosystem of algorithms, systems, and deployment targets. Click each original paper figure to inspect it in full resolution.
+          </p>
+        </div>
+
+        <div class="figure-grid">
+          <figure class="paper-figure wide reveal">
+            <button class="figure-frame" data-lightbox="assets/paper-fig-2.png" aria-label="Open research timeline figure">
+              <img src="assets/paper-fig-2.png" alt="Timeline of model compression research for on-device large language models" loading="lazy" />
+              <span class="zoom-hint" data-i18n="openFigure">Open figure</span>
+            </button>
+            <figcaption>
+              <span data-i18n="fig2Caption">The model-compression landscape from early distillation and quantization to hybrid 2025 methods.</span>
+              <a href="https://doi.org/10.1007/s10462-026-11538-1" target="_blank" rel="noreferrer">Source: Chen et al., 2026</a>
+            </figcaption>
+          </figure>
+
+          <figure class="paper-figure reveal">
+            <button class="figure-frame" data-lightbox="assets/paper-fig-3.png" aria-label="Open quantization timeline figure">
+              <img src="assets/paper-fig-3.png" alt="Timeline of post-training quantization and quantization-aware training techniques" loading="lazy" />
+              <span class="zoom-hint" data-i18n="openFigure">Open figure</span>
+            </button>
+            <figcaption>
+              <span data-i18n="fig3Caption">A closer view of the fast-moving LLM quantization landscape.</span>
+              <a href="https://doi.org/10.1007/s10462-026-11538-1" target="_blank" rel="noreferrer">Source: Chen et al., 2026</a>
+            </figcaption>
+          </figure>
+
+          <article class="map-note reveal delay-1">
+            <p class="eyebrow" data-i18n="livingCollection">Living collection</p>
+            <h3 data-i18n="mapNoteTitle">The paper is a snapshot. The repository keeps moving.</h3>
+            <p data-i18n="mapNoteBody">
+              The companion Awesome List extends the published survey with new papers, code links, venues, and community contributions.
+            </p>
+            <a class="text-link" href="https://github.com/LumosJiang/Awesome-On-Device-LLMs#-contents" target="_blank" rel="noreferrer">
+              <span data-i18n="exploreTaxonomy">Explore the complete taxonomy</span> →
+            </a>
+          </article>
+        </div>
+      </section>
+
+      <section class="alem-section section-shell" id="alem">
+        <div class="alem-intro reveal">
+          <p class="eyebrow">ALEM</p>
+          <h2 data-i18n="alemTitle">Measure what deployment actually costs.</h2>
+          <p data-i18n="alemBody">
+            The survey proposes a shared evaluation lens for comparing methods across devices and workloads. No single number captures whether an on-device LLM is genuinely useful.
+          </p>
+          <a class="text-link" href="https://doi.org/10.1007/s10462-026-11538-1" target="_blank" rel="noreferrer">
+            <span data-i18n="learnProtocol">Learn about the protocol</span> →
+          </a>
+        </div>
+        <div class="alem-orbit reveal delay-1" aria-label="ALEM evaluation dimensions">
+          <div class="orbit-center">ALEM</div>
+          <article class="metric metric-a">
+            <strong>A</strong><span data-i18n="accuracy">Accuracy</span><small data-i18n="accuracySmall">Capability retained</small>
+          </article>
+          <article class="metric metric-l">
+            <strong>L</strong><span data-i18n="latency">Latency</span><small data-i18n="latencySmall">TTFT & throughput</small>
+          </article>
+          <article class="metric metric-e">
+            <strong>E</strong><span data-i18n="energy">Energy</span><small data-i18n="energySmall">Power per workload</small>
+          </article>
+          <article class="metric metric-m">
+            <strong>M</strong><span data-i18n="memoryLabel">Memory</span><small data-i18n="memorySmall">Weights & KV cache</small>
+          </article>
+        </div>
+      </section>
+
+      <section class="insights section-shell">
+        <div class="section-heading reveal">
+          <p class="eyebrow" data-i18n="insightsEyebrow">Deployment takeaways</p>
+          <h2 data-i18n="insightsTitle">Three ideas to carry into the next system.</h2>
+        </div>
+        <div class="insight-grid">
+          <article class="insight-card reveal">
+            <span>01</span>
+            <h3 data-i18n="insight1Title">Start with the bottleneck.</h3>
+            <p data-i18n="insight1Body">Choose compression and runtime techniques only after profiling memory bandwidth, compute, latency, and energy on the target device.</p>
+          </article>
+          <article class="insight-card reveal delay-1">
+            <span>02</span>
+            <h3 data-i18n="insight2Title">Treat KV cache as a subsystem.</h3>
+            <p data-i18n="insight2Body">Long-context deployment shifts pressure from model weights to cache capacity, bandwidth, paging, and scheduling.</p>
+          </article>
+          <article class="insight-card reveal delay-2">
+            <span>03</span>
+            <h3 data-i18n="insight3Title">Co-design beats local optimum.</h3>
+            <p data-i18n="insight3Body">The best model in isolation may lose once kernels, accelerators, thermal limits, and application quality are considered together.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="resources section-shell" id="resources">
+        <div class="resource-panel reveal">
+          <div>
+            <p class="eyebrow" data-i18n="resourcesEyebrow">Use the work</p>
+            <h2 data-i18n="resourcesTitle">Read, browse, cite, and contribute.</h2>
+            <p data-i18n="resourcesBody">The journal article provides the synthesis. The repository keeps the map current.</p>
+          </div>
+          <div class="resource-links">
+            <a href="https://doi.org/10.1007/s10462-026-11538-1" target="_blank" rel="noreferrer"><span data-i18n="officialArticle">Official article</span><b>↗</b></a>
+            <a href="https://github.com/LumosJiang/Awesome-On-Device-LLMs" target="_blank" rel="noreferrer"><span>Awesome List</span><b>↗</b></a>
+            <a href="https://github.com/LumosJiang/Awesome-On-Device-LLMs/issues" target="_blank" rel="noreferrer"><span data-i18n="suggestPaper">Suggest a paper</span><b>↗</b></a>
+          </div>
+        </div>
+
+        <div class="citation-card reveal delay-1">
+          <div class="citation-topline">
+            <div>
+              <p class="eyebrow">BibTeX</p>
+              <h3 data-i18n="citationTitle">Cite the survey</h3>
+            </div>
+            <button class="copy-button" id="copyCitation" data-i18n="copy">Copy</button>
+          </div>
+          <pre id="citationText"><code>@article{chen2026ondevice,
+  title   = {On-device large language models: a survey of model compression and system optimization},
+  author  = {Chen, Wanyi and Wang, Junhao and Zhang, Yiwei and Shi, Yufan and Jiang, Tianyi and Zhou, Shengxian and Wu, Chenxu and Zhang, Andi and Zhou, Chenyue and Wang, Minxuan and Liu, Xinyu and Hao, Xiaoshuai and Wu, Yinan and Li, Yichen and Hu, Yuwei and Cao, Zhao and Lu, Yang and Li, Mengke and Ma, Yanbiao and Lu, Zhiwu and Han, Jungong and Guo, Yike},
+  journal = {Artificial Intelligence Review},
+  year    = {2026},
+  month   = may,
+  doi     = {10.1007/s10462-026-11538-1}
+}</code></pre>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div>
+        <strong>Awesome On-Device Large Language Models</strong>
+        <span data-i18n="footerText">A community-maintained companion to the published survey.</span>
+      </div>
+      <p>
+        <span data-i18n="figureLicense">Paper figures reproduced unchanged from Chen et al. (2026) under</span>
+        <a href="https://creativecommons.org/licenses/by-nc-nd/4.0/" target="_blank" rel="noreferrer">CC BY-NC-ND 4.0</a>.
+      </p>
+    </footer>
+
+    <dialog id="lightbox">
+      <button class="lightbox-close" aria-label="Close figure">×</button>
+      <img src="" alt="Expanded paper figure" />
+    </dialog>
+    <div class="toast" id="toast" role="status" aria-live="polite" data-i18n="copied">Citation copied</div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
