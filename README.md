@@ -4,10 +4,42 @@
 
 **A curated list of papers on on-device large language models, focusing on model compression and system optimization techniques.**
 
+[![Journal](https://img.shields.io/badge/Artificial%20Intelligence%20Review-2026-1f6f5f.svg)](https://doi.org/10.1007/s10462-026-11538-1)
+[![Open Access](https://img.shields.io/badge/Open%20Access-Springer-ef7d32.svg)](https://link.springer.com/article/10.1007/s10462-026-11538-1)
+[![Project Page](https://img.shields.io/badge/Project-Page-7357ff.svg)](https://lumosjiang.github.io/Awesome-On-Device-LLMs/)
 [![GitHub stars](https://img.shields.io/github/stars/LumosJiang/Awesome-On-Device-LLMs?style=social)](https://github.com/LumosJiang/Awesome-On-Device-LLMs/stargazers)
 ![visitors](https://visitor-badge.laobi.icu/badge?page_id=Awesome-On-Device-LLMs&left_color=green&right_color=red)
 
 </div>
+
+> [!IMPORTANT]
+> Our survey, **“On-device large language models: a survey of model compression and system optimization,”** was accepted on **12 March 2026** and published open access in *Artificial Intelligence Review* on **22 May 2026**. Read the [official article](https://doi.org/10.1007/s10462-026-11538-1) or explore the [project page](https://lumosjiang.github.io/Awesome-On-Device-LLMs/).
+
+## 📖 About the Survey
+
+This repository hosts the complete reference collection accompanying the survey. The paper connects model-side compression with system-side execution, covering quantization, pruning, knowledge distillation, low-rank methods, hybrid compression, compilers, inference runtimes, memory and KV-cache optimization, hardware support, and edge-cloud collaboration.
+
+It also introduces **ALEM**—**Accuracy, Latency, Energy, and Memory**—as a unified protocol for evaluating resource-aware on-device deployment.
+
+| Resource | Link |
+|---|---|
+| Published paper | [Springer / DOI](https://doi.org/10.1007/s10462-026-11538-1) |
+| Project overview | [Interactive project page](https://lumosjiang.github.io/Awesome-On-Device-LLMs/) |
+| Curated collection | [Browse 250+ papers](#-contents) |
+| Contributions | [Open an issue or pull request](https://github.com/LumosJiang/Awesome-On-Device-LLMs/issues) |
+
+### Citation
+
+```bibtex
+@article{chen2026ondevice,
+  title   = {On-device large language models: a survey of model compression and system optimization},
+  author  = {Chen, Wanyi and Wang, Junhao and Zhang, Yiwei and Shi, Yufan and Jiang, Tianyi and Zhou, Shengxian and Wu, Chenxu and Zhang, Andi and Zhou, Chenyue and Wang, Minxuan and Liu, Xinyu and Hao, Xiaoshuai and Wu, Yinan and Li, Yichen and Hu, Yuwei and Cao, Zhao and Lu, Yang and Li, Mengke and Ma, Yanbiao and Lu, Zhiwu and Han, Jungong and Guo, Yike},
+  journal = {Artificial Intelligence Review},
+  year    = {2026},
+  month   = may,
+  doi     = {10.1007/s10462-026-11538-1}
+}
+```
 
 ## 📋 Contents
 * Model Compression
