@@ -991,6 +991,10 @@ It also introduces **ALEM**—**Accuracy, Latency, Energy, and Memory**—as a u
 + **Principle-Guided Verilog Optimization: IP-Safe Knowledge Transfer via Local-Cloud Collaboration** (2025, arXiv)  
   [![Paper](https://img.shields.io/badge/arXiv-2508.05675-b31b1b.svg)](https://arxiv.org/abs/2508.05675)
 
++ **Empowering Edge Agents: A Systematic Analysis of Edge-Cloud Collaboration in LLM Agent Execution** (2026, arXiv)  
+  [![Paper](https://img.shields.io/badge/arXiv-2610.17816-b31b1b.svg)](https://arxiv.org/abs/2610.17816)
+  [![Code](https://img.shields.io/github/stars/OpenBMB/EC2-Bench.svg?style=social&label=Star)](https://github.com/OpenBMB/EC2-Bench)
+
 ---
 
 ## 📝 TODO List
