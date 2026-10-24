@@ -177,6 +177,9 @@ It also introduces **ALEM**—**Accuracy, Latency, Energy, and Memory**—as a u
 + **Unifying Uniform and Binary-coding Quantization for Accurate Compression of Large Language Models** (Jul 2025, ACL'25)  
   [![Paper](https://img.shields.io/badge/ACL-AC6600.svg)](https://aclanthology.org/2025.acl-long.1382/)
   [![Code](https://img.shields.io/github/stars/snudm-starlab/UniQuanF.svg?style=social&label=Star)](https://github.com/snudm-starlab/UniQuanF)
++ **Small-State Coset Trellis Coding at IQ2_XXS Size: An Equal-Bytes Study in llama.cpp** (Oct 2026, Zenodo preprint)  
+  [![Paper](https://img.shields.io/badge/Zenodo-1682D4.svg)](https://doi.org/10.5281/zenodo.23481757)
+  [![Code](https://img.shields.io/github/stars/Genrius-AI/pingala8-llm.svg?style=social&label=Star)](https://github.com/Genrius-AI/pingala8-llm)
 ---
 
 ## ✂️ Model Pruning
