@@ -177,6 +177,11 @@ It also introduces **ALEM**—**Accuracy, Latency, Energy, and Memory**—as a u
 + **Unifying Uniform and Binary-coding Quantization for Accurate Compression of Large Language Models** (Jul 2025, ACL'25)  
   [![Paper](https://img.shields.io/badge/ACL-AC6600.svg)](https://aclanthology.org/2025.acl-long.1382/)
   [![Code](https://img.shields.io/github/stars/snudm-starlab/UniQuanF.svg?style=social&label=Star)](https://github.com/snudm-starlab/UniQuanF)
+
++ **Extreme Compression of Per-Layer Embeddings via Cross-Layer Latent Vector Quantization** (Oct 2026, arXiv)  
+  [![Paper](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2610.31309)
+  [![Code](https://img.shields.io/github/stars/VILA-Lab/optic.svg?style=social&label=Star)](https://github.com/VILA-Lab/optic)
+
 ---
 
 ## ✂️ Model Pruning
